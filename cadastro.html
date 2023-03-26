@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do cliente</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Cadastro do cliente</h1>
+    <p>Cadastro/Login do cliente// Redirecionar após o login ou cadastro direto para a página da assistente Virtual
+    <h1>Formulários</h1>
+
+
+    <form action="index.html" name="dados" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="idNome">Nome:</label>
+            <input id="idNome" type="text" name="nome"> <br>
+            <label for="idMail">E-mail:</label>
+            <input id="idMail" type="email" name="email"> <br>
+            <label for="idPassword">Senha:</label>
+            <input type="password" name="senha" id="idPassword"> <br>
+            <label for="idTelefone">Telefone:</label>
+            <input type="tel" name="telefone" id="idTelefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+            <legend>Endereço</legend>
+            <label for="idAdress">Endereço</label>
+            <input id="idAdress" type="text" name="endereço"> <br>
+        </fieldset>
+        <input type="submit" value="Enviar"> 
+    </form>
+    <div>
+        <nav>
+            <ul>
+                <li><a class = "a" href="index.html">Página inicial</a></li>
+            </ul>
+        </nav>
+        <footer>
+            E-mail para Contato: gfvcorporation@gfvcorporation.com.br<br>
+            © 2023, GFV Corporation 
+        </footer> 
+    </div>
+</body>
+</html>
