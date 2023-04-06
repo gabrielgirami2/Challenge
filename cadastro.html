@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>Cadastro do cliente</h1>
-    <p>Cadastro/Login do cliente// Redirecionar após o login ou cadastro direto para a página da assistente Virtual
-    <h1>Formulários</h1>
+    <h1 class="titulo_corpo_home">Cadastro do cliente</h1>
+    <p class="apresentacao_conteudo_p">Cadastro/Login do cliente// Redirecionar após o login ou cadastro direto para a página da assistente Virtual
+   
 
 
     <form action="index.html" name="dados" method="get">
@@ -24,8 +24,7 @@
             <input type="password" name="senha" id="idPassword"> <br>
             <label for="idTelefone">Telefone:</label>
             <input type="tel" name="telefone" id="idTelefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
-            <legend>Endereço</legend>
-            <label for="idAdress">Endereço</label>
+            <label for="idAdress">Endereço:</label>
             <input id="idAdress" type="text" name="endereço"> <br>
         </fieldset>
         <input type="submit" value="Enviar"> 
@@ -33,13 +32,42 @@
     <div>
         <nav>
             <ul>
-                <li><a class = "a" href="index.html">Página inicial</a></li>
+                <li><a class = "apresentacao_conteudo_home_links_link" href="index.html">Página inicial</a></li>
             </ul>
         </nav>
-        <footer>
-            E-mail para Contato: gfvcorporation@gfvcorporation.com.br<br>
-            © 2023, GFV Corporation 
-        </footer> 
+        <footer class="apresentacao_conteudo_home_rodape">
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Empresa</h4>
+                            <ul>
+                                <li><a href="participantes.html">Participantes</li>
+                                <li><a href="#">Nossos Serviços</a></li>
+                                <li><a href="#">Política de Privacidade</a></li>
+                                <li><a href="#">Programa Afiliado</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Suporte</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Envio do guincho</a></li>
+                                <li><a href="#">Status do Rastreio</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Redes Sociais</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </footer> 
     </div>
 </body>
 </html>
