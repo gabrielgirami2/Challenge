@@ -66,6 +66,7 @@ h1 {
 
 .apresentacao_conteudo_home_links_link:hover {
 	text-decoration: underline;
+	/*a*/
 }
 /.apresentacao_conteudo_home_rodape{
     display: flex;
